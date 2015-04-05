@@ -1,0 +1,42 @@
+{
+  "name": "glsl-combine-chamfer",
+  "version": "1.0.0",
+  "description": "Combine two signed distance fields with a chamfer-like join.",
+  "main": "index.glsl",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy demo.js:bundle.js -- -t glslify",
+    "bundle": "browserify demo.js -o bundle.js -t glslify"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "beefy": "^2.1.3",
+    "browserify": "^9.0.3",
+    "canvas-fit": "^1.3.0",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.0.0",
+    "gl-toy": "^1.0.0",
+    "glsl-raytrace": "^1.0.0",
+    "glsl-sdf-box": "^1.0.0",
+    "glsl-sdf-normal": "^1.0.0",
+    "glsl-turntable-camera": "^1.0.0",
+    "glslify": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-combine-chamfer.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl"
+  ],
+  "homepage": "https://github.com/stackgl/glsl-combine-chamfer",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-combine-chamfer/issues"
+  }
+}
