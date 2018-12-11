@@ -5,7 +5,7 @@
 Combine two signed distance fields with a
 [chamfer](http://en.wikipedia.org/wiki/Chamfer)-like join.
 
-**[view demo](http://stack.gl/glsl-combine-chamfer/)**
+**[view demo](http://glslify.github.io/glsl-combine-chamfer/)**
 
 This technique was derived from a
 [great talk](https://www.youtube.com/watch?v=s8nFqwOho-s) at
